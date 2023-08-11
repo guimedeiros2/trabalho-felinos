@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Estrutura HTML da página inicial do site -->
+<!-- lang define o idioma da página-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- As tags a seguir, title e link, definem o nome e ícone da página que serão exibidos no aba do navegador -->
+    <title>DS - Regente</title>
+    <link rel="icon" type="image/x-icon" href="imagens/logo-icon.png">
+
+    <!-- A seguir estão sendo linkados os arquivos css que definirão a estilização da página -->
+    <!-- reset.css resetá/zera/normaliza todo e qualquer estilo predefinido pelo navegador -->
+    <!-- style.css define a estilização a ser aplicada na página -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Cabeçalho da página: logo e nome do site -->
+    <header id="topo">
+        <img class="logo" src="images-removebg-preview.png" alt="Pinguim, logo do Linux">
+        <h1 class="titulo">Conheça os Felinos</h1>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul class="menu">
+            <li class="item-menu"><a href="index.html">Home</a></li>
+            <li class="item-menu"><a href="sobre.html">Sobre</a></li>
+            <li class="item-menu"><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo, parte principal da página, será dividido em 3 seções -->
+    <main>
+        <!-- Seção 1: contém imagem e texto -->
+        <section class="curso-info">
+            <h2 class="titulo-section">Conheça Sobre</h2>
+            <img class="curso-img" src="download.jpeg" height="1">
+            <p class="curso-paragrafo">Felinos é como chamamos a família de mamíferos Felidae, que é dividida em duas subfamílias: Pantherinae (abrange os leões, tigres, onças pintadas, leopardos) e Felinae (abrange as onças pardas, jaguatiricas, linces, guepardos e gatos domésticos). São nativos de todos os continentes, exceto Antártida e Austrália.</p>
+        </section>
+
+        <!-- Seção 2: contém um vídeo -->
+        <section>
+            <h2 class="titulo-section">Um pouco sobre a família</h2>
+            <iframe width="700" height="400" src="https://www.youtube.com/embed/TmSw9NWNNsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
+        <!-- Seção 3: contém uma mapa -->
+        <section id="section-maps">
+            <h2 class="titulo-section">Conheça Pessoalmente</h2>
+            <p class="mapa-info">O zoológico municipal fica localizado no bairro Alto boqueirão da cidade de Curitiba.
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14397.431356872228!2d-49.231466!3d-25.559759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcf98f2f7c9d91%3A0xe0dd64805a0c7bab!2sZool%C3%B3gico%20Municipal%20de%20Curitiba!5e0!3m2!1spt-BR!2sbr!4v1691752621585!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <aside class="sidebar">
+            <h3 class="sidebar-titulo">Parceiros</h3>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/felipreto.jpg"
+                    alt="FeliPreto"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/jamorim.jpg"
+                    alt="João Amorim"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/roboman.jpg" alt="Roboman"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/scobra.jpg"
+                    alt="Stalone Cobra"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/titanic666.jpg"
+                    alt="Titanic 666"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/cats.jpg" alt="Cats"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/miguelito.jpg"
+                    alt="Miguelito"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/decreptos.jpg"
+                    alt="Decréptos"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/room.jpg" alt="The Room"></a>
+            <p class="sidebar-info">Todos os parceiros são testados e aprovados pelos mestres do vacilo.</p>
+            <img class="sidebar-img" src="imagens/selo.png" alt="Selo Vacilo de Qualidade">
+        </aside>
+
+        <a class="btn_inicio" href="#topo" title="Voltar ao Início">&#8657</a>
+        
+    </main>
+
+    <!-- Rodapé da página: contém o logo e texto -->
+    <footer>
+        <img class="logo-rodape" src="images-removebg-preview.png" alt="Pinguim, logo do Linux">
+        <p class="texto-rodape"></p>
+        <p class="texto-rodape">Todos os diretos liberados. Uncreative Commons.</p>
+        <p class="texto-rodape" style="font-size: 33px;">&#9982;</p>
+    </footer>
+</body>
+
+</html>
