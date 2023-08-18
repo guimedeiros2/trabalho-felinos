@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Estrutura HTML da página inicial do site -->
+<!-- lang define o idioma da página-->
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+
+        <!-- As tags a seguir, title e link, definem o nome e ícone da página que serão exibidos no aba do navegador -->
+        <title>DS - Regente</title>
+        <link rel="icon" type="image/x-icon" href="images-removebg-preview.png">
+
+        <!-- A seguir estão sendo linkados os arquivos css que definirão a estilização da página -->
+        <!-- reset.css resetá/zera/normaliza todo e qualquer estilo predefinido pelo navegador -->
+        <!-- style.css define a estilização a ser aplicada na página -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    <body>
+        <!-- Cabeçalho da página: logo e nome do site -->
+        <header id="topo">
+            <img class="logo" src="images-removebg-preview.png" alt="Pinguim, logo do Linux">
+            <h1 class="titulo">Conheça as Espécies</h1>
+        </header>
+    
+        <!-- Menu de Navegação -->
+        <nav>
+            <ul class="menu">
+                <li class="item-menu"><a href="index.html">Home</a></li>
+                <li class="item-menu"><a href="sobre.html">Sobre</a></li>
+                <li class="item-menu"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Conteúdo, parte principal da página, será dividido em 3 seções -->
+        <main>
+            <!-- Seção 1: contém itens com imagens e texto -->
+            <section>
+                <!-- Título da Seção e texto descritivo -->
+                <h2 class="titulo-section">Mais Raros</h2>
+                <p>Essas são as espécies mais exóticas e exuberantes encontradas pelo mundo.</p>
+                
+                <!-- Lista com itens -->
+                <!-- Para cada item, tem um nome/título, imagem e texto descritivo -->
+                <ul class="conteudos">
+                    <li class="item-conteudo">
+                        <h3 class="titulo-conteudo">Lince Ibérico</h3>
+                        <img class="imagem-conteudo" src="download.jpeg">
+                        <p class="desc-conteudo">
+                           Lince Abutre
+                            Também conhecido como liberne, gato-cravo e lobo-cerval, o lince-ibérico, cujo nome científico é Lynx pardinus, é um animal muito raro, endémico da Península Ibérica, isto é, existe apenas em Portugal e Espanha, e possui uma distribuição geográfica muito restrita.</p>
+                        <p class="desc-conteudo"></p>
+                    </li>
+                    <li class="item-conteudo">
+                        <h3 class="titulo-conteudo">Ligre</h3>
+                        <img class="imagem-conteudo" src="download (1).jpeg">
+                        <p class="desc-conteudo">A cruza entre leão e tigre resulta em um animal com gigantescas proporções. O ligre é um híbrido, uma mistura de leão e tigre, que resultou no maior felino do mundo. 
+                            Os "ligres" podem viver até 20 anos e tornam-se felinos de porte maior do que seus pais. Existem cerca de 10 "ligres" vivos no mundo.</p>
+                        <p class="desc-conteudo"></p>
+                    </li>
+                    <li class="item-conteudo">
+                        <h3 class="titulo-conteudo">Sphynx</h3>
+                        <img class="imagem-conteudo" src="images.jpeg">
+                        <p class="desc-conteudo"> esse é o Sphynx, um gato único! Os gatos da raça Sphynx podem causar certa estranheza quando os vemos pela primeira vez, mas essa aparência diferente dos demais gatos não interfere em nada, é um gatinho como qualquer outro em termos de comportamento. Eles são muito carinhosos e brincalhões. </p>
+                        <p class="desc-conteudo"></p>
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Seção 2: contém uma tabela -->
+            <section>
+                <h2 class="titulo-section">raças de gatos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Conheça algumas</th>
+                        </tr>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Origem</th>
+                            <th>Aparência</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sphynx</td>
+                            <td>Toronto</td>
+                            <td>Olhos grandes, orelhas pontudas e rosto afinado.</td>
+                        </tr>
+                        <tr>
+                            <td>Siamês</td>
+                            <td>tailândia</td>
+                            <td>
+                                A pelagem do Siamês é curta e lustrosa ficando rente ao corpo.</td>
+                        </tr>
+                        <tr>
+                            <td>Munchkin</td>
+                            <td>Luisiana</td>
+                            <td>é um gato de pernas curtas, costas geralmente um pouco mais longas. </td>
+                        </tr>
+                        <tr>
+                            <td>Persa</td>
+                            <td>Irã</td>
+                            <td> Sua pelagem é extensa, solta, quase esvoaçante.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Tabela descritiva</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <aside class="sidebar">
+                <h3 class="sidebar-titulo">Parceiros</h3>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/felipreto.jpg"
+                        alt="FeliPreto"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/jamorim.jpg"
+                        alt="João Amorim"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/roboman.jpg" alt="Roboman"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/scobra.jpg"
+                        alt="Stalone Cobra"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/titanic666.jpg"
+                        alt="Titanic 666"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/cats.jpg" alt="Cats"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/miguelito.jpg"
+                        alt="Miguelito"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/decreptos.jpg"
+                        alt="Decréptos"></a>
+                <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/room.jpg" alt="The Room"></a>
+                <p class="sidebar-info">Todos os parceiros são testados e aprovados pelos mestres do vacilo.</p>
+                <img class="sidebar-img" src="imagens/selo.png" alt="Selo Vacilo de Qualidade">
+            </aside>
+            
+            <a class="btn_inicio" href="#topo" title="Voltar ao Início">&#8657</a>
+
+        </main>
+        
+        <!-- Rodapé da página: contém o logo e texto -->
+        <footer>
+            <img class="logo-rodape" src="images-removebg-preview.png" alt="Pinguim, logo do Linux">
+            <p class="texto-rodape">Projeto Desenvolvido para servir de modelo e aprendiazagem ao longo do curso de
+                desenvolvimentos em sistemas.</p>
+            <p class="texto-rodape">Todos os diretos liberados. Uncreative Commons.</p>
+            <p class="texto-rodape" style="font-size: 33px;">&#9982;</p>
+        </footer>
+    </body>
+</html>
