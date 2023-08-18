@@ -19,8 +19,8 @@
     <body>
         <!-- Cabeçalho da página: logo e nome do site -->
         <header id="topo">
-            <img class="logo" src="images-removebg-preview.png" alt="Pinguim, logo do Linux">
-            <h1 class="titulo">Cadastre seu bichano</h1>
+            <img class="logo" src="imagens/linux_logo.png" alt="Pinguim, logo do Linux">
+            <h1 class="titulo">Desenvolvimento de Sistemas</h1>
         </header>
     
         <!-- Menu de Navegação -->
@@ -38,22 +38,22 @@
             <section>
                 <h2 class="titulo-section">Formulário de contato</h2>
                 <form>
-                    <label for="nome">Nome </label>
+                    <label for="nome">Nome completo</label>
                     <input type="text" id="nome" class="entrada_dados" required>
-                    <label for="email">pelagem</label>
-                    <input type="email" id="email" class="entrada_dados" >
-                    <label for="celular">raça</label>
-                    <input type="tel" id="celular" class="entrada_dados" >
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="entrada_dados" placeholder="email@dominio.com">
+                    <label for="celular">Celular</label>
+                    <input type="tel" id="celular" class="entrada_dados" required placeholder="(xx) x xxxx-xxxx">
                     <label for="obs">Observação</label>
                     <textarea cols="70" rows="10" id="obs" class="entrada_dados" placeholder="Comentários e/ou observação"></textarea>
 
                     <fieldset>
                         <legend>Qual o motivo de seu contato?</legend>
                         <label for="radio-op1">
-                            <input type="radio" value="conversa" id="radio-op1" name="contato">quero adotar um gato 
+                            <input type="radio" value="conversa" id="radio-op1" name="contato">Só queria alguém pra conversar... &#128546;
                         </label>
                         <label for="radio-op2">
-                            <input type="radio" value="reclamar" id="radio-op2" name="contato">quero doar um gato
+                            <input type="radio" value="reclamar" id="radio-op2" name="contato">Quero reclmar da vida &#128545;
                         </label>
                         <label for="radio-op3">
                             <input type="radio" value="nsei" id="radio-op3" name="contato" checked>Não sei o que eu tô fazendo aqui, eu só tenho 6 anos &#128561;
@@ -112,8 +112,9 @@
         
         <!-- Rodapé da página: contém o logo e texto -->
         <footer>
-            <img class="logo-rodape" src="images-removebg-preview.png" alt="Pinguim, logo do Linux">
-            <p class="texto-rodape"></p>
+            <img class="logo-rodape" src="imagens/linux_logo.png" alt="Pinguim, logo do Linux">
+            <p class="texto-rodape">Projeto Desenvolvido para servir de modelo e aprendiazagem ao longo do curso de
+                desenvolvimentos em sistemas.</p>
             <p class="texto-rodape">Todos os diretos liberados. Uncreative Commons.</p>
             <p class="texto-rodape" style="font-size: 33px;">&#9982;</p>
         </footer>
